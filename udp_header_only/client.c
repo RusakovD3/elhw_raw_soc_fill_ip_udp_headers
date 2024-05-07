@@ -16,7 +16,6 @@
 int main() {
     int client_socket;
     struct sockaddr_in server_addr;
-    char buffer[BUFFER_SIZE];
     char rcv[BUFFER_SIZE];
 
     // Создание raw сокета
